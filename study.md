@@ -16,6 +16,7 @@ Show the characters and give their name.
 
 ```md
 <!-- replace this comment with your answer -->
+brackets ([ and ]) indicate optional parts
 ```
 
 What characters indicate a possibly repeating element in a command?
@@ -23,6 +24,7 @@ Show the characters and give their name.
 
 ```md
 <!-- replace this comment with your answer -->
+Dots (...) mean that the preceding element can be repeated
 ```
 
 ## Creating or removing a database
@@ -31,12 +33,14 @@ What shell command would you execute to create a database named `mydb`?
 
 ```sh
 # replace this comment with your answer
+createdb mydb
 ```
 
 What shell command would you execute to remove a database named `mydb`?
 
 ```sh
 # replace this comment with your answer
+dropdb mydb
 ```
 
 ## Creating or removing a table
@@ -60,22 +64,26 @@ a database table with rows?
 
 ```sql
 /* replace this comment with your answer */
+INSERT INTO
 ```
 
 What SQL keyword starts the command to retrieve data from a database table?
 
 ```sql
 /* replace this comment with your answer */
+SELECT
 ```
 
 What SQL command is used to update existing rows in a database table?
 
 ```sql
 /* replace this comment with your answer */
+UPDATE
 ```
 
 What SQL command is used to remove rows from a database table?
 
 ```sql
 /* replace this comment with your answer */
+DELETE
 ```
